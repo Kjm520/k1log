@@ -16,7 +16,6 @@
 
 
 
-arbitrary note
 
 
 ---
@@ -51,13 +50,12 @@ arbitrary note
 
 
 
-
 ```
+---
 
 
-
-
-
+### Edit #1 | 4/9/2025
+- Changed to GH Pages, removed CF Worker. 
 
 
 
