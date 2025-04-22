@@ -10,8 +10,9 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #fff;
+  background-image: url("/assets/img/banner.png");
   color: #333;
-  padding: 20px;
+  background-size: cover;
 }
 
 /* Header Styles */
@@ -33,6 +34,7 @@ footer {
   font-size: 0.8em;
   color: #ffffff;
   margin-top: 20px;
+  
 }
 
 .card {
