@@ -1,0 +1,24 @@
+{
+  "name": "k1log",
+  "version": "1.0.0",
+  "description": "HTML Subsidiary of the primary K1Freight.com",
+  "homepage": "https://github.com/Kjm520/k1log#readme",
+  "bugs": {
+    "url": "https://github.com/Kjm520/k1log/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kjm520/k1log.git"
+  },
+  "license": "ISC",
+  "author": "Kevin McDonald",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint": "^9.25.1",
+    "prettier": "^3.5.3"
+  }
+}
