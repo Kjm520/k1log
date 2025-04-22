@@ -1,7 +1,9 @@
 module.exports = {
-    extends: "stylelint-config-standard",
+    extends: [
+      'stylelint-config-standard',
+    ],
     rules: {
-      // Optional custom rules
+      'selector-class-pattern': null,
+      "unit-allowed-list": ["%", "deg", "px", "rem", "ms"],
     },
   };
-  
