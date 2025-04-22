@@ -4,6 +4,8 @@ module.exports = {
     ],
     rules: {
       'selector-class-pattern': null,
-      "unit-allowed-list": ["%", "deg", "px", "rem", "ms"],
+      "selector-id-pattern": null, 
+      "declaration-empty-line-before": null,
+      "unit-allowed-list": ["%", "deg", "px", "rem", "ms", "vh"],
     },
   };
