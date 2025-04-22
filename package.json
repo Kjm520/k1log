@@ -10,14 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/Kjm520/k1log.git"
   },
-  "license": "ISC",
+  "license": "SEE LICENSE.txt",
   "author": "Kevin McDonald",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^9.25.1",
     "prettier": "^3.5.3"
   }

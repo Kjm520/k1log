@@ -1,24 +1,11 @@
 # Notes
 
-
-
-
-
-
-
-
-
 ### To Do
 
 - Background
 
-
-
-
-
-
-
 ---
+
 ```
 
 
@@ -51,25 +38,17 @@
 
 
 ```
----
 
+---
 
 ### Edit #1 | 4/9/2025
-- Changed to GH Pages, removed CF Worker. 
+
+- Changed to GH Pages, removed CF Worker.
 - Tried semantic-release.. too much for a simple project like this. Removed.
-
-
-
-
-
-
-
 
 ---
 
-
 #### Unused `rel="icon"` Links
-  
 
 ```
     <link
@@ -99,4 +78,3 @@
       content="https://i0.wp.com/k1freight.com/wp-content/uploads/2025/03/K1convert.png?fit=270%2C270&amp;ssl=1"
     />
 ```
-

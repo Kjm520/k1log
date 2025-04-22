@@ -1,46 +1,43 @@
 /* Basic Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body Styles */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #fff;
-    color: #333;
-    padding: 20px;
-  }
-  
-  /* Header Styles */
-  header {
-    background: #0437F2;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Main Content Styles */
-  main {
-    margin: 20px 0;
-  }
-  
-  /* Footer Styles */
-  footer {
-    text-align: center;
-    font-size: 0.8em;
-    color: #ffffff;
-    margin-top: 20px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+}
 
-  .card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  
+/* Header Styles */
+header {
+  background: #0437f2;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main Content Styles */
+main {
+  margin: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
