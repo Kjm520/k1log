@@ -1,63 +1,46 @@
 /**
- * © 2025 K1 Freight LLC
- */
+* © 2025 K1 Freight LLC
+*/
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>K1 Apps</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://k1freight.com/wp-content/uploads/2025/03/favicon-96x96-1.png"
-      sizes="96x96"
-    />
-  </head
 
-  <body>
-    <header>
-      <p>K1A</p>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K1 Freight</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="https://k1freight.com/wp-content/uploads/2025/03/favicon-96x96-1.png"
+    sizes="96x96" />
+</head <body>
+<header>
+  <p>K1A</p>
+</header>
 
 
-    <main>
-      <div>
-        <h1 class="card">There is nothing here. You sure?</h1>
-      </div>
+<main>
+  <div>
+    <h1 class="card">There is nothing here.</h1>
+  </div>
 
 
-      <div>
+  <!-- <div>
         <a href="bootstrap.html">Hello</a>
-      </div>
+      </div> -->
 
 
-      <div id="sheetNumber">
-        <br>
-      
-      
-      
-      <script>
-        fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQFhX5xkv3eZZrUaszD0P2fiSzteU-Ny3LINFOcAtZvn-Xzue9xdHX_0w_UrRNkuGsx1gTl9HXjOP_s/pub?gid=0&single=true&output=csv")
-          .then(response => response.text())
-          .then(csvText => {
-            const cellValue = csvText.trim();
-            document.getElementById("sheetNumber").innerText = cellValue;
-          })
-          .catch(error => {
-          });
-      </script>
-      </div>
+  <div id="sheetNumber">
+    Loading...
+  </div>
 
 
 
-    </main>
-    <script src="scripts.js"></script>
-  </body>
+</main>
 
-  <footer>
-    <p>© 2025 K1A. All rights reserved.</p>
-  </footer>
+<footer>
+  <p>© 2025 K1A. All rights reserved.</p>
+</footer>
+<script src="js/scripts.js"></script>
+</body>
+
 </html>
