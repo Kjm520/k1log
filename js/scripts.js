@@ -6,18 +6,32 @@
 
 
 
-(fetchCount() {
+// fetchCount() {
   
-  fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQFhX5xkv3eZZrUaszD0P2fiSzteU-Ny3LINFOcAtZvn-Xzue9xdHX_0w_UrRNkuGsx1gTl9HXjOP_s/pub?gid=0&single=true&output=csv")
-    .then(response => response.text())
-    .then(csvText => {
-      const cellValue = csvText.trim();
-      document.getElementById("sheetNumber").innerText = cellValue;
+//   fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQFhX5xkv3eZZrUaszD0P2fiSzteU-Ny3LINFOcAtZvn-Xzue9xdHX_0w_UrRNkuGsx1gTl9HXjOP_s/pub?gid=0&single=true&output=csv")
+//     .then(response => response.text())
+//     .then(csvText => {
+//       const cellValue = csvText.trim();
+//       document.getElementById("sheetNumber").innerText = cellValue;
+//     })
+//     .catch(error => {
+//     });
+
+// };
+
+(function() {
+  const el = document.getElementById("sheetNumber");
+  el.innerText = "Loading…";
+
+   fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQFhX5xkv3eZZrUaszD0P2fiSzteU-Ny3LINFOcAtZvn-Xzue9xdHX_0w_UrRNkuGsx1gTl9HXjOP_s/pub?gid=0&single=true&output=csv")
+    .then(r => r.text())
+    .then(csv => {
+      el.innerText = csv.trim();
     })
-    .catch(error => {
+    .catch(err => {
+      console.error(err);
+      el.innerText = "e";
     });
-
-});
-
+})();
 
 
