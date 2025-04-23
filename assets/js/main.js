@@ -1,6 +1,6 @@
 import { fetchLoadCount } from "./fetchLoadCount.js";
 
-const el = document.getElementById("sheetNumber");
+const el = document.getElementById("loadCount");
 el.innerText = "Loading…";
 
 fetchLoadCount()
