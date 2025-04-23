@@ -1,10 +1,3 @@
-/* Basic Reset */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 /* Body Styles */
 body {
 	font-family: Arial, sans-serif;
@@ -22,39 +15,40 @@ header {
 	padding: 10px;
 	text-align: center;
 	display: flex;
-	justify-content: space-around;
 	height: 10vh;
+	flex-direction: row;
 }
 
 .menu {
 	display: flex;
+	flex: 1;
+	align-items: center;
 }
 
 .menu_left,
 .menu_center,
 .menu_right {
-	flex: 1;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	flex: 1;
+	place-content: center center;
 }
 
 .menu_left {
-object-fit: contain;
-height: 80%;
+
+	object-fit: contain;
+	height: 80%;
 }
 
 .menu_center {
-	flex:1;
+	font-size: large; /* Put this here temp so it's not blank */
 }
 
 .menu_right {
-	justify-content: flex-end;
-	font-size: 50px;
+	font-size: large; /* Put this here temp so it's not blank */
 }
 
-#menu_logo {
-	height: inherit;
+.menu_logo {
+	height: 80%;
 }
 
 /* Main Content Styles */
